@@ -1,0 +1,92 @@
+"Code","Lat","Lon","Name","StationTogether1","isUpperLevel","Lines","Opened"
+"A02",38.903192,-77.039766,"Farragut North",NA,-1,"RD",1976-03-29
+"A03",38.909499,-77.04362,"Dupont Circle",NA,-1,"RD",1977-01-17
+"A04",38.924999,-77.052648,"Woodley Park-Zoo/Adams Morgan",NA,-1,"RD",1981-12-05
+"A05",38.934703,-77.058226,"Cleveland Park",NA,-1,"RD",1981-12-05
+"A06",38.94362,-77.063511,"Van Ness-UDC",NA,-1,"RD",1981-12-05
+"A07",38.947808,-77.079615,"Tenleytown-AU",NA,-1,"RD",1984-08-25
+"A08",38.960744,-77.085969,"Friendship Heights",NA,-1,"RD",1984-08-25
+"A09",38.984282,-77.094431,"Bethesda",NA,-1,"RD",1984-08-25
+"A10",38.999947,-77.097253,"Medical Center",NA,-1,"RD",1984-08-25
+"A11",39.029158,-77.10415,"Grosvenor-Strathmore",NA,-1,"RD",1984-08-25
+"A12",39.048043,-77.113131,"White Flint",NA,-1,"RD",1984-12-15
+"A13",39.062359,-77.121113,"Twinbrook",NA,-1,"RD",1984-12-15
+"A14",39.084215,-77.146424,"Rockville",NA,-1,"RD",1984-12-15
+"A15",39.119819,-77.164921,"Shady Grove",NA,-1,"RD",1984-12-15
+"B02",38.896084,-77.016643,"Judiciary Square",NA,-1,"RD",1976-03-29
+"B03",38.897723,-77.006745,"Union Station",NA,-1,"RD",1976-03-29
+"B04",38.920741,-76.995984,"Rhode Island Ave-Brentwood",NA,-1,"RD",1976-03-29
+"B05",38.933234,-76.994544,"Brookland-CUA",NA,-1,"RD",1978-02-06
+"B07",38.975532,-77.017834,"Takoma",NA,-1,"RD",1978-02-06
+"B08",38.993841,-77.031321,"Silver Spring",NA,-1,"RD",1978-02-06
+"B09",39.015413,-77.042953,"Forest Glen",NA,-1,"RD",1990-09-22
+"B10",39.038558,-77.051098,"Wheaton",NA,-1,"RD",1990-09-22
+"B11",39.061713,-77.05341,"Glenmont",NA,-1,"RD",1998-07-25
+"B35",38.907407,-77.002961,"NoMa-Gallaudet U",NA,-1,"RD",2004-11-20
+"C02",38.901316,-77.033652,"McPherson Square",NA,-1,"BL,OR,SV",1977-07-01
+"C03",38.901311,-77.03981,"Farragut West",NA,-1,"BL,OR,SV",1977-07-01
+"C04",38.900599,-77.050273,"Foggy Bottom-GWU",NA,-1,"BL,OR,SV",1977-07-01
+"C05",38.896595,-77.07146,"Rosslyn",NA,-1,"BL,OR,SV",1977-07-01
+"C06",38.884574,-77.063108,"Arlington Cemetery",NA,-1,"BL",1977-07-01
+"C07",38.869349,-77.054013,"Pentagon",NA,-1,"BL,YL",1977-07-01
+"C08",38.863045,-77.059507,"Pentagon City",NA,-1,"BL,YL",1977-07-01
+"C09",38.85779,-77.050589,"Crystal City",NA,-1,"BL,YL",1977-07-01
+"C10",38.852985,-77.043805,"Ronald Reagan Washington National Airport",NA,-1,"BL,YL",1977-07-01
+"C12",38.814009,-77.053763,"Braddock Road",NA,-1,"BL,YL",1983-12-17
+"C13",38.806474,-77.061115,"King St-Old Town",NA,-1,"BL,YL",1983-12-17
+"C14",38.800313,-77.071173,"Eisenhower Avenue",NA,-1,"YL",1983-12-17
+"C15",38.793841,-77.075301,"Huntington",NA,-1,"YL",1983-12-17
+"D01",38.893757,-77.028218,"Federal Triangle",NA,-1,"BL,OR,SV",1977-07-01
+"D02",38.888022,-77.028232,"Smithsonian",NA,-1,"BL,OR,SV",1977-07-01
+"D04",38.884958,-77.01586,"Federal Center SW",NA,-1,"BL,OR,SV",1977-07-01
+"D05",38.884968,-77.005137,"Capitol South",NA,-1,"BL,OR,SV",1977-07-01
+"D06",38.884124,-76.995334,"Eastern Market",NA,-1,"BL,OR,SV",1977-07-01
+"D07",38.880841,-76.985721,"Potomac Ave",NA,-1,"BL,OR,SV",1977-07-01
+"D08",38.88594,-76.977485,"Stadium-Armory",NA,-1,"BL,OR,SV",1977-07-01
+"D09",38.898284,-76.948042,"Minnesota Ave",NA,-1,"OR",1978-11-20
+"D10",38.907734,-76.936177,"Deanwood",NA,-1,"OR",1978-11-20
+"D11",38.91652,-76.915427,"Cheverly",NA,-1,"OR",1978-11-20
+"D12",38.934411,-76.890988,"Landover",NA,-1,"OR",1978-11-20
+"D13",38.947674,-76.872144,"New Carrollton",NA,-1,"OR",1978-11-20
+"E01",38.905604,-77.022256,"Mt Vernon Sq 7th St-Convention Center",NA,-1,"GR,YL",1991-05-11
+"E02",38.912919,-77.022194,"Shaw-Howard U",NA,-1,"GR,YL",1991-05-11
+"E03",38.916489,-77.028938,"U Street/African-Amer Civil War Memorial/Cardozo",NA,-1,"GR,YL",1991-05-11
+"E04",38.928672,-77.032775,"Columbia Heights",NA,-1,"GR,YL",1999-09-18
+"E05",38.936077,-77.024728,"Georgia Ave-Petworth",NA,-1,"GR,YL",1999-09-18
+"E07",38.954931,-76.969881,"West Hyattsville",NA,-1,"GR",1993-12-11
+"E08",38.965276,-76.956182,"Prince George's Plaza",NA,-1,"GR",1993-12-11
+"E09",38.978523,-76.928432,"College Park-U of Md",NA,-1,"GR",1993-12-11
+"E10",39.011036,-76.911362,"Greenbelt",NA,-1,"GR",1993-12-11
+"F02",38.893893,-77.021902,"Archives-Navy Memorial-Penn Quarter",NA,-1,"GR,YL",1983-04-30
+"F04",38.876221,-77.017491,"Waterfront",NA,-1,"GR",1991-12-28
+"F05",38.876588,-77.005086,"Navy Yard-Ballpark",NA,-1,"GR",1991-12-28
+"F06",38.862072,-76.995648,"Anacostia",NA,-1,"GR",1991-12-28
+"F07",38.845334,-76.98817,"Congress Heights",NA,-1,"GR",2001-01-13
+"F08",38.840974,-76.97536,"Southern Avenue",NA,-1,"GR",2001-01-13
+"F09",38.851187,-76.956565,"Naylor Road",NA,-1,"GR",2001-01-13
+"F10",38.843891,-76.932022,"Suitland",NA,-1,"GR",2001-01-13
+"F11",38.826995,-76.912134,"Branch Ave",NA,-1,"GR",2001-01-13
+"G01",38.890488,-76.938291,"Benning Road",NA,-1,"BL,SV",1980-11-22
+"G02",38.889757,-76.913382,"Capitol Heights",NA,-1,"BL,SV",1980-11-22
+"G03",38.886713,-76.893592,"Addison Road-Seat Pleasant",NA,-1,"BL,SV",1980-11-22
+"G04",38.8913,-76.8682,"Morgan Boulevard",NA,-1,"BL,SV",2004-12-18
+"G05",38.9008,-76.8449,"Largo Town Center",NA,-1,"BL,SV",2004-12-18
+"J02",38.799193,-77.129407,"Van Dorn Street",NA,-1,"BL",1991-06-15
+"J03",38.766129,-77.168797,"Franconia-Springfield",NA,-1,"BL",1997-06-29
+"K01",38.891499,-77.08391,"Court House",NA,-1,"OR,SV",1979-12-11
+"K02",38.886373,-77.096963,"Clarendon",NA,-1,"OR,SV",1979-12-11
+"K03",38.88331,-77.104267,"Virginia Square-GMU",NA,-1,"OR,SV",1979-12-11
+"K04",38.882071,-77.111845,"Ballston-MU",NA,-1,"OR,SV",1979-12-11
+"K05",38.885841,-77.157177,"East Falls Church",NA,-1,"OR,SV",1986-06-07
+"K06",38.90067,-77.189394,"West Falls Church-VT/UVA",NA,-1,"OR",1986-06-07
+"K07",38.883015,-77.228939,"Dunn Loring-Merrifield",NA,-1,"OR",1986-06-07
+"K08",38.877693,-77.271562,"Vienna/Fairfax-GMU",NA,-1,"OR",1986-06-07
+"N01",38.924478,-77.210167,"McLean",NA,-1,"SV",2014-07-26
+"N02",38.920056,-77.223314,"Tysons Corner",NA,-1,"SV",2014-07-26
+"N03",38.919749,-77.235192,"Greensboro",NA,-1,"SV",2014-07-26
+"N04",38.929273,-77.241988,"Spring Hill",NA,-1,"SV",2014-07-26
+"N06",38.947753,-77.340179,"Wiehle-Reston East",NA,-1,"SV",2014-07-26
+NA,38.951777,-77.002174,"Fort Totten",NA,-1,"Upper level: RD<br/>Lower level: GR,YL",1978-02-06
+NA,38.89834,-77.021851,"Gallery Pl-Chinatown",NA,-1,"Upper level: RD<br/>Lower level: GR,YL",1976-12-15
+NA,38.884775,-77.021964,"L'Enfant Plaza",NA,-1,"Upper level: GR,YL<br/>Lower level: BL,OR,SV",1977-07-01
+NA,38.898303,-77.028099,"Metro Center",NA,-1,"Upper level: RD<br/>Lower level: BL,OR,SV",1976-03-29

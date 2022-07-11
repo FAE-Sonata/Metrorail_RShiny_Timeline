@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Timeline of Metrorail stations opening</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Timeline of Metrorail stations opening">
+  <meta name="author" content="Kevin H(Y) Shu">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Timeline of Metrorail stations opening</h1>
+    <h2></h2>
+    <p>Kevin H(Y) Shu<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Obtaining the data</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Registration with the WMATA developer API is required here: <a href="https://developer.wmata.com">https://developer.wmata.com</a>. Select the default tier. Once the account is confirmed, visit your profile at <a href="https://developer.wmata.com/developer">https://developer.wmata.com/developer</a> and obtain the API key from <code>Primary key</code>.</li>
+<li>For a list of stations containing the coordinates of and lines served at each station, read the JSON documentation entitled <a href="https://developer.wmata.com/docs/services/5476364f031f590f38092507/operations/5476364f031f5909e4fe3311?">JSON - Station List</a>. I wrote <code>query_wmata_stations.py</code> to query the API and assemble the results into <code>api_stations.csv</code>.</li>
+<li>For a list of lines with stations in traversal order, read the JSON documentation entitled <a href="https://developer.wmata.com/docs/services/5476364f031f590f38092507/operations/5476364f031f5909e4fe330e?">JSON - Path between Stations</a>. I wrote <code>query_wmata_lines.py</code> to query the API and assemble the results into <code>api_lines_in_travel_order.csv</code>.</li>
+<li>As the opening dates for each station was not available from the API, I downloaded the table present at <a href="https://en.wikipedia.org/wiki/List_of_Washington_Metro_stations#Stations">Wikipedia&#39;s list of stations</a> to <code>Station opening time list.csv</code>.</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Data preparation</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><code>compile_wmata_stations.R</code> assumes <code>query_wmata_stations.py</code> and <code>query_wmata_lines.py</code> have successfully output <code>api_stations.csv</code> and <code>api_lines_in_travel_order.csv</code>, respectively.</li>
+<li>Broadly, the rest of that script first removes duplicate instances of single-level stations shared by multiple lines that are repeated in <code>api_stations.csv</code>. This trimming prevents multliplicity in pinpoint labels.</li>
+<li>It then merges the information contained within <code>Station opening time list.csv</code> with the two data frames respectively containing two differing lists of stations; the first not allowing for duplicate instances as mentioned before, the second, extracted from <code>api_lines_in_travel_order.csv</code>, listing the stations by the traversal order within each of the 6 lines.</li>
+<li>For the four stations with two levels, the label for <code>Lines</code> combines the two levels, listing the line(s) on the upper level on the first line, and the lower level&#39;s lines on the second line.</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Shiny app design overview</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>The <code>ui.R</code> consists of a slider input that spans the opening of the first stations (the Red Line from Farragut North thru Rhode Island Ave) thru the latest stations (the Silver Line from McLean to Wiehle-Reston East) as well as the leaflet map output. The only &quot;server&quot; calculation involved is the reading of the intermediate <code>Concise list of stations.csv</code> to obtain the station opening date range.</li>
+<li>After filtering the stations to those opened on or after the date specified from <code>sliderInput</code>, the <code>server.R</code>, using the <code>addMarkers</code> function, adds markers for each station with an information pop-up that also contains the edited list of lines served at the station, treating the four two-level stations as a single station. Then, <code>addPolylines</code> adds line segments between each point in the supplied vector <em>in the order that the points are specified</em>. This was why the &quot;Path between Stations&quot; API was both necessary and convenient.</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>The interactive expression used</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>The application is located <a href="https://caradhrasaiguo.shinyapps.io/metrorail_stations_timeline-updated/">here</a></li>
+<li>The source code is located  <a href ="https://github.com/CaradhrasAiguo/Metrorail_leaflet_shiny_presentation">here</a></li>
+<li><code>concise</code> is the data frame of stations that were opened on or after the date specified by the slider, and does not contain &quot;duplicates&quot;. It provides coordinates and other information for the markers that will be plotted for each station.</li>
+<li><code>lines</code> is the data frame of stations, repeated across lines and listed in traversal order. It is the input to <code>polyLines</code> that will draw segments between the station markers.</li>
+</ul>
+
+<pre><code class="r">filteredData &lt;- reactive({
+  list(concise=dfConcise %&gt;% filter(Opened &lt;= input$histDate),
+       lines=dfLines %&gt;% filter(Opened &lt;= input$histDate)
+  )
+})
+
+dataSubset&lt;-filteredData()
+dfSubset&lt;-dataSubset$concise
+dfPartialLines&lt;-dataSubset$lines
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Obtaining the data'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Data preparation'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Shiny app design overview'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='The interactive expression used'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
