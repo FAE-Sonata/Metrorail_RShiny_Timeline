@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# https://en.wikipedia.org/w/index.php?title=List_of_Washington_Metro_stations&oldid=1122154339
-
 import http.client, urllib.request, urllib.parse, urllib.error
 import json, pandas as pd
 
