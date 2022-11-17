@@ -1,21 +1,17 @@
 # -*- coding: utf-8 -*-
-"""
-Spyder Editor
+# https://en.wikipedia.org/w/index.php?title=List_of_Washington_Metro_stations&oldid=1122154339
 
-This is a temporary script file.
-"""
+import http.client, urllib.request, urllib.parse, urllib.error
+import json, pandas as pd
 
-import http.client, urllib.request, urllib.parse, urllib.error, base64
-import json, pandas
-
-def obtainHeaders(apiKey):
+def obtain_headers(api_key):
     headers = {
         # Request headers
-        'api_key': apiKey,
+        'api_key': api_key,
     }
     return headers
 
-def obtainStationOrder(headers, code1, code2):
+def obtain_station_order(headers, code1, code2):
     params = urllib.parse.urlencode({
         # Request parameters
         'FromStationCode': code1,
@@ -24,30 +20,30 @@ def obtainStationOrder(headers, code1, code2):
     
     try:
         conn = http.client.HTTPSConnection('api.wmata.com')
-        conn.request("GET", "/Rail.svc/json/jPath?%s" % params, "{body}", headers)
+        conn.request("GET", f"/Rail.svc/json/jPath?{params}", "{body}", headers)
         response = conn.getresponse()
         data = response.read()
         loaded = json.loads(data)
-        lstStations = loaded['Path']
-        return(pandas.DataFrame(lstStations))
+        lst_stations = loaded['Path']
         conn.close()
+        return(pd.DataFrame(lst_stations))
     except Exception as e:
-        print("[Errno {0}] {1}".format(e.errno, e.strerror))
+        print(f"[Errno {e.errno}] {e.strerror}")
 
-#wmataKey=input("Please enter your WMATA developer API key: ")
-keyFile=open("wmata_api_key.txt","r")
-wmataKey=keyFile.read()
-keyFile.close()
-headers=obtainHeaders(wmataKey)
+with open("wmata_api_key.txt") as key_file:
+    wmata_key=key_file.read()
+    headers=obtain_headers(wmata_key)
 
-# Glenmont, New Carrollton, Largo, Branch Ave, Huntington, Largo
-terminiES=["B11", "D13", "G05", "F11", "C15", "G05"]
-# Shady Grove, Vienna, Franconia, Greenbelt, Fort Totten, Wiehle
-terminiWN=["A15", "K08", "J03", "E10", "E06", "N06"]
-assert(len(terminiES) == len(terminiWN))
+termini_df = pd.read_csv("Termini_codes.csv")
+assert all(pd.notna(termini_df['Termini1_Code'])) and all(pd.notna(termini_df[
+    'Termini2_Code']))
+NUM_LINES = termini_df.shape[0]
+termini_ES = list(termini_df['Termini1_Code'])
+termini_WN = list(termini_df['Termini2_Code'])
+assert(len(termini_ES) == NUM_LINES and len(termini_WN) == NUM_LINES)
 
-lstLines = list(map(lambda k: obtainStationOrder(headers, terminiES[k], terminiWN[k]),
-               range(len(terminiES))))
-dfFullLine = pandas.concat(lstLines)
-dfFullLine = dfFullLine.replace([0], [None])
-dfFullLine.to_csv('api_lines_in_travel_order.csv', sep=',', index=False)
+lst_lines = [obtain_station_order(headers, termini_ES[k], termini_WN[k]) for k in
+             range(NUM_LINES)]
+df_full_line = pd.concat(lst_lines)
+df_full_line = df_full_line.replace([0], [None])
+df_full_line.to_csv('api_lines_in_travel_order.csv', sep=',', index=False)

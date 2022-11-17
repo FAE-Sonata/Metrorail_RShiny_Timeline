@@ -1,147 +1,153 @@
-Code,Lat,LineCode1,LineCode2,LineCode3,LineCode4,Lon,Name,StationTogether1,StationTogether2,queriedLine
-A01,38.898303,RD,,,,-77.028099,Metro Center,C01,,RD
-A02,38.903192,RD,,,,-77.039766,Farragut North,,,RD
-A03,38.909499,RD,,,,-77.04362,Dupont Circle,,,RD
-A04,38.924999,RD,,,,-77.052648,Woodley Park-Zoo/Adams Morgan,,,RD
-A05,38.934703,RD,,,,-77.058226,Cleveland Park,,,RD
-A06,38.94362,RD,,,,-77.063511,Van Ness-UDC,,,RD
-A07,38.947808,RD,,,,-77.079615,Tenleytown-AU,,,RD
-A08,38.960744,RD,,,,-77.085969,Friendship Heights,,,RD
-A09,38.984282,RD,,,,-77.094431,Bethesda,,,RD
-A10,38.999947,RD,,,,-77.097253,Medical Center,,,RD
-A11,39.029158,RD,,,,-77.10415,Grosvenor-Strathmore,,,RD
-A12,39.048043,RD,,,,-77.113131,White Flint,,,RD
-A13,39.062359,RD,,,,-77.121113,Twinbrook,,,RD
-A14,39.084215,RD,,,,-77.146424,Rockville,,,RD
-A15,39.119819,RD,,,,-77.164921,Shady Grove,,,RD
-B01,38.89834,RD,,,,-77.021851,Gallery Pl-Chinatown,F01,,RD
-B02,38.896084,RD,,,,-77.016643,Judiciary Square,,,RD
-B03,38.897723,RD,,,,-77.006745,Union Station,,,RD
-B04,38.920741,RD,,,,-76.995984,Rhode Island Ave-Brentwood,,,RD
-B05,38.933234,RD,,,,-76.994544,Brookland-CUA,,,RD
-B06,38.951777,RD,,,,-77.002174,Fort Totten,E06,,RD
-B07,38.975532,RD,,,,-77.017834,Takoma,,,RD
-B08,38.993841,RD,,,,-77.031321,Silver Spring,,,RD
-B09,39.015413,RD,,,,-77.042953,Forest Glen,,,RD
-B10,39.038558,RD,,,,-77.051098,Wheaton,,,RD
-B11,39.061713,RD,,,,-77.05341,Glenmont,,,RD
-B35,38.907407,RD,,,,-77.002961,NoMa-Gallaudet U,,,RD
-C01,38.898303,BL,OR,SV,,-77.028099,Metro Center,A01,,OR
-C02,38.901316,BL,OR,SV,,-77.033652,McPherson Square,,,OR
-C03,38.901311,BL,OR,SV,,-77.03981,Farragut West,,,OR
-C04,38.900599,BL,OR,SV,,-77.050273,Foggy Bottom-GWU,,,OR
-C05,38.896595,BL,OR,SV,,-77.07146,Rosslyn,,,OR
-D01,38.893757,BL,OR,SV,,-77.028218,Federal Triangle,,,OR
-D02,38.888022,BL,OR,SV,,-77.028232,Smithsonian,,,OR
-D03,38.884775,BL,OR,SV,,-77.021964,L'Enfant Plaza,F03,,OR
-D04,38.884958,BL,OR,SV,,-77.01586,Federal Center SW,,,OR
-D05,38.884968,BL,OR,SV,,-77.005137,Capitol South,,,OR
-D06,38.884124,BL,OR,SV,,-76.995334,Eastern Market,,,OR
-D07,38.880841,BL,OR,SV,,-76.985721,Potomac Ave,,,OR
-D08,38.88594,BL,OR,SV,,-76.977485,Stadium-Armory,,,OR
-D09,38.898284,OR,,,,-76.948042,Minnesota Ave,,,OR
-D10,38.907734,OR,,,,-76.936177,Deanwood,,,OR
-D11,38.91652,OR,,,,-76.915427,Cheverly,,,OR
-D12,38.934411,OR,,,,-76.890988,Landover,,,OR
-D13,38.947674,OR,,,,-76.872144,New Carrollton,,,OR
-K01,38.891499,OR,SV,,,-77.08391,Court House,,,OR
-K02,38.886373,OR,SV,,,-77.096963,Clarendon,,,OR
-K03,38.88331,OR,SV,,,-77.104267,Virginia Square-GMU,,,OR
-K04,38.882071,OR,SV,,,-77.111845,Ballston-MU,,,OR
-K05,38.885841,OR,SV,,,-77.157177,East Falls Church,,,OR
-K06,38.90067,OR,,,,-77.189394,West Falls Church-VT/UVA,,,OR
-K07,38.883015,OR,,,,-77.228939,Dunn Loring-Merrifield,,,OR
-K08,38.877693,OR,,,,-77.271562,Vienna/Fairfax-GMU,,,OR
-C01,38.898303,BL,OR,SV,,-77.028099,Metro Center,A01,,BL
-C02,38.901316,BL,OR,SV,,-77.033652,McPherson Square,,,BL
-C03,38.901311,BL,OR,SV,,-77.03981,Farragut West,,,BL
-C04,38.900599,BL,OR,SV,,-77.050273,Foggy Bottom-GWU,,,BL
-C05,38.896595,BL,OR,SV,,-77.07146,Rosslyn,,,BL
-C06,38.884574,BL,,,,-77.063108,Arlington Cemetery,,,BL
-C07,38.869349,BL,YL,,,-77.054013,Pentagon,,,BL
-C08,38.863045,BL,YL,,,-77.059507,Pentagon City,,,BL
-C09,38.85779,BL,YL,,,-77.050589,Crystal City,,,BL
-C10,38.852985,BL,YL,,,-77.043805,Ronald Reagan Washington National Airport,,,BL
-C12,38.814009,BL,YL,,,-77.053763,Braddock Road,,,BL
-C13,38.806474,BL,YL,,,-77.061115,King St-Old Town,,,BL
-D01,38.893757,BL,OR,SV,,-77.028218,Federal Triangle,,,BL
-D02,38.888022,BL,OR,SV,,-77.028232,Smithsonian,,,BL
-D03,38.884775,BL,OR,SV,,-77.021964,L'Enfant Plaza,F03,,BL
-D04,38.884958,BL,OR,SV,,-77.01586,Federal Center SW,,,BL
-D05,38.884968,BL,OR,SV,,-77.005137,Capitol South,,,BL
-D06,38.884124,BL,OR,SV,,-76.995334,Eastern Market,,,BL
-D07,38.880841,BL,OR,SV,,-76.985721,Potomac Ave,,,BL
-D08,38.88594,BL,OR,SV,,-76.977485,Stadium-Armory,,,BL
-G01,38.890488,BL,SV,,,-76.938291,Benning Road,,,BL
-G02,38.889757,BL,SV,,,-76.913382,Capitol Heights,,,BL
-G03,38.886713,BL,SV,,,-76.893592,Addison Road-Seat Pleasant,,,BL
-G04,38.8913,BL,SV,,,-76.8682,Morgan Boulevard,,,BL
-G05,38.9008,BL,SV,,,-76.8449,Largo Town Center,,,BL
-J02,38.799193,BL,,,,-77.129407,Van Dorn Street,,,BL
-J03,38.766129,BL,,,,-77.168797,Franconia-Springfield,,,BL
-E01,38.905604,GR,YL,,,-77.022256,Mt Vernon Sq 7th St-Convention Center,,,GR
-E02,38.912919,GR,YL,,,-77.022194,Shaw-Howard U,,,GR
-E03,38.916489,GR,YL,,,-77.028938,U Street/African-Amer Civil War Memorial/Cardozo,,,GR
-E04,38.928672,GR,YL,,,-77.032775,Columbia Heights,,,GR
-E05,38.936077,GR,YL,,,-77.024728,Georgia Ave-Petworth,,,GR
-E06,38.951777,GR,YL,,,-77.002174,Fort Totten,B06,,GR
-E07,38.954931,GR,,,,-76.969881,West Hyattsville,,,GR
-E08,38.965276,GR,,,,-76.956182,Prince George's Plaza,,,GR
-E09,38.978523,GR,,,,-76.928432,College Park-U of Md,,,GR
-E10,39.011036,GR,,,,-76.911362,Greenbelt,,,GR
-F01,38.89834,GR,YL,,,-77.021851,Gallery Pl-Chinatown,B01,,GR
-F02,38.893893,GR,YL,,,-77.021902,Archives-Navy Memorial-Penn Quarter,,,GR
-F03,38.884775,GR,YL,,,-77.021964,L'Enfant Plaza,D03,,GR
-F04,38.876221,GR,,,,-77.017491,Waterfront,,,GR
-F05,38.876588,GR,,,,-77.005086,Navy Yard-Ballpark,,,GR
-F06,38.862072,GR,,,,-76.995648,Anacostia,,,GR
-F07,38.845334,GR,,,,-76.98817,Congress Heights,,,GR
-F08,38.840974,GR,,,,-76.97536,Southern Avenue,,,GR
-F09,38.851187,GR,,,,-76.956565,Naylor Road,,,GR
-F10,38.843891,GR,,,,-76.932022,Suitland,,,GR
-F11,38.826995,GR,,,,-76.912134,Branch Ave,,,GR
-C07,38.869349,BL,YL,,,-77.054013,Pentagon,,,YL
-C08,38.863045,BL,YL,,,-77.059507,Pentagon City,,,YL
-C09,38.85779,BL,YL,,,-77.050589,Crystal City,,,YL
-C10,38.852985,BL,YL,,,-77.043805,Ronald Reagan Washington National Airport,,,YL
-C12,38.814009,BL,YL,,,-77.053763,Braddock Road,,,YL
-C13,38.806474,BL,YL,,,-77.061115,King St-Old Town,,,YL
-C14,38.800313,YL,,,,-77.071173,Eisenhower Avenue,,,YL
-C15,38.793841,YL,,,,-77.075301,Huntington,,,YL
-E01,38.905604,GR,YL,,,-77.022256,Mt Vernon Sq 7th St-Convention Center,,,YL
-E02,38.912919,GR,YL,,,-77.022194,Shaw-Howard U,,,YL
-E03,38.916489,GR,YL,,,-77.028938,U Street/African-Amer Civil War Memorial/Cardozo,,,YL
-E04,38.928672,GR,YL,,,-77.032775,Columbia Heights,,,YL
-E05,38.936077,GR,YL,,,-77.024728,Georgia Ave-Petworth,,,YL
-E06,38.951777,GR,YL,,,-77.002174,Fort Totten,B06,,YL
-F01,38.89834,GR,YL,,,-77.021851,Gallery Pl-Chinatown,B01,,YL
-F02,38.893893,GR,YL,,,-77.021902,Archives-Navy Memorial-Penn Quarter,,,YL
-F03,38.884775,GR,YL,,,-77.021964,L'Enfant Plaza,D03,,YL
-C01,38.898303,BL,OR,SV,,-77.028099,Metro Center,A01,,SV
-C02,38.901316,BL,OR,SV,,-77.033652,McPherson Square,,,SV
-C03,38.901311,BL,OR,SV,,-77.03981,Farragut West,,,SV
-C04,38.900599,BL,OR,SV,,-77.050273,Foggy Bottom-GWU,,,SV
-C05,38.896595,BL,OR,SV,,-77.07146,Rosslyn,,,SV
-D01,38.893757,BL,OR,SV,,-77.028218,Federal Triangle,,,SV
-D02,38.888022,BL,OR,SV,,-77.028232,Smithsonian,,,SV
-D03,38.884775,BL,OR,SV,,-77.021964,L'Enfant Plaza,F03,,SV
-D04,38.884958,BL,OR,SV,,-77.01586,Federal Center SW,,,SV
-D05,38.884968,BL,OR,SV,,-77.005137,Capitol South,,,SV
-D06,38.884124,BL,OR,SV,,-76.995334,Eastern Market,,,SV
-D07,38.880841,BL,OR,SV,,-76.985721,Potomac Ave,,,SV
-D08,38.88594,BL,OR,SV,,-76.977485,Stadium-Armory,,,SV
-G01,38.890488,BL,SV,,,-76.938291,Benning Road,,,SV
-G02,38.889757,BL,SV,,,-76.913382,Capitol Heights,,,SV
-G03,38.886713,BL,SV,,,-76.893592,Addison Road-Seat Pleasant,,,SV
-G04,38.8913,BL,SV,,,-76.8682,Morgan Boulevard,,,SV
-G05,38.9008,BL,SV,,,-76.8449,Largo Town Center,,,SV
-K01,38.891499,OR,SV,,,-77.08391,Court House,,,SV
-K02,38.886373,OR,SV,,,-77.096963,Clarendon,,,SV
-K03,38.88331,OR,SV,,,-77.104267,Virginia Square-GMU,,,SV
-K04,38.882071,OR,SV,,,-77.111845,Ballston-MU,,,SV
-K05,38.885841,OR,SV,,,-77.157177,East Falls Church,,,SV
-N01,38.924478,SV,,,,-77.210167,McLean,,,SV
-N02,38.920056,SV,,,,-77.223314,Tysons Corner,,,SV
-N03,38.919749,SV,,,,-77.235192,Greensboro,,,SV
-N04,38.929273,SV,,,,-77.241988,Spring Hill,,,SV
-N06,38.947753,SV,,,,-77.340179,Wiehle-Reston East,,,SV
+Code,Name,StationTogether1,StationTogether2,LineCode1,LineCode2,LineCode3,LineCode4,Lat,Lon,queriedLine
+A01,Metro Center,C01,,RD,,,,38.898303,-77.028099,RD
+A02,Farragut North,,,RD,,,,38.903192,-77.039766,RD
+A03,Dupont Circle,,,RD,,,,38.909499,-77.04362,RD
+A04,Woodley Park-Zoo/Adams Morgan,,,RD,,,,38.924999,-77.052648,RD
+A05,Cleveland Park,,,RD,,,,38.934703,-77.058226,RD
+A06,Van Ness-UDC,,,RD,,,,38.94362,-77.063511,RD
+A07,Tenleytown-AU,,,RD,,,,38.947808,-77.079615,RD
+A08,Friendship Heights,,,RD,,,,38.960744,-77.085969,RD
+A09,Bethesda,,,RD,,,,38.984282,-77.094431,RD
+A10,Medical Center,,,RD,,,,38.999947,-77.097253,RD
+A11,Grosvenor-Strathmore,,,RD,,,,39.029158,-77.10415,RD
+A12,North Bethesda,,,RD,,,,39.048043,-77.113131,RD
+A13,Twinbrook,,,RD,,,,39.062359,-77.121113,RD
+A14,Rockville,,,RD,,,,39.084215,-77.146424,RD
+A15,Shady Grove,,,RD,,,,39.119819,-77.164921,RD
+B01,Gallery Pl-Chinatown,F01,,RD,,,,38.89834,-77.021851,RD
+B02,Judiciary Square,,,RD,,,,38.896084,-77.016643,RD
+B03,Union Station,,,RD,,,,38.897723,-77.006745,RD
+B04,Rhode Island Ave-Brentwood,,,RD,,,,38.920741,-76.995984,RD
+B05,Brookland-CUA,,,RD,,,,38.933234,-76.994544,RD
+B06,Fort Totten,E06,,RD,,,,38.951777,-77.002174,RD
+B07,Takoma,,,RD,,,,38.975532,-77.017834,RD
+B08,Silver Spring,,,RD,,,,38.993841,-77.031321,RD
+B09,Forest Glen,,,RD,,,,39.015413,-77.042953,RD
+B10,Wheaton,,,RD,,,,39.038558,-77.051098,RD
+B11,Glenmont,,,RD,,,,39.061713,-77.05341,RD
+B35,NoMa-Gallaudet U,,,RD,,,,38.907407,-77.002961,RD
+C01,Metro Center,A01,,BL,OR,SV,,38.898303,-77.028099,OR
+C02,McPherson Square,,,BL,OR,SV,,38.901316,-77.033652,OR
+C03,Farragut West,,,BL,OR,SV,,38.901311,-77.03981,OR
+C04,Foggy Bottom-GWU,,,BL,OR,SV,,38.900599,-77.050273,OR
+C05,Rosslyn,,,BL,OR,SV,,38.896595,-77.07146,OR
+D01,Federal Triangle,,,BL,OR,SV,,38.893757,-77.028218,OR
+D02,Smithsonian,,,BL,OR,SV,,38.888022,-77.028232,OR
+D03,L'Enfant Plaza,F03,,BL,OR,SV,,38.884775,-77.021964,OR
+D04,Federal Center SW,,,BL,OR,SV,,38.884958,-77.01586,OR
+D05,Capitol South,,,BL,OR,SV,,38.884968,-77.005137,OR
+D06,Eastern Market,,,BL,OR,SV,,38.884124,-76.995334,OR
+D07,Potomac Ave,,,BL,OR,SV,,38.880841,-76.985721,OR
+D08,Stadium-Armory,,,BL,OR,SV,,38.88594,-76.977485,OR
+D09,Minnesota Ave,,,OR,,,,38.898284,-76.948042,OR
+D10,Deanwood,,,OR,,,,38.907734,-76.936177,OR
+D11,Cheverly,,,OR,,,,38.91652,-76.915427,OR
+D12,Landover,,,OR,,,,38.934411,-76.890988,OR
+D13,New Carrollton,,,OR,,,,38.947674,-76.872144,OR
+K01,Court House,,,OR,SV,,,38.891499,-77.08391,OR
+K02,Clarendon,,,OR,SV,,,38.886373,-77.096963,OR
+K03,Virginia Square-GMU,,,OR,SV,,,38.88331,-77.104267,OR
+K04,Ballston-MU,,,OR,SV,,,38.882071,-77.111845,OR
+K05,East Falls Church,,,OR,SV,,,38.885841,-77.157177,OR
+K06,West Falls Church,,,OR,,,,38.90067,-77.189394,OR
+K07,Dunn Loring-Merrifield,,,OR,,,,38.883015,-77.228939,OR
+K08,Vienna/Fairfax-GMU,,,OR,,,,38.877693,-77.271562,OR
+C01,Metro Center,A01,,BL,OR,SV,,38.898303,-77.028099,BL
+C02,McPherson Square,,,BL,OR,SV,,38.901316,-77.033652,BL
+C03,Farragut West,,,BL,OR,SV,,38.901311,-77.03981,BL
+C04,Foggy Bottom-GWU,,,BL,OR,SV,,38.900599,-77.050273,BL
+C05,Rosslyn,,,BL,OR,SV,,38.896595,-77.07146,BL
+C06,Arlington Cemetery,,,BL,,,,38.884574,-77.063108,BL
+C07,Pentagon,,,BL,YL,,,38.869349,-77.054013,BL
+C08,Pentagon City,,,BL,YL,,,38.863045,-77.059507,BL
+C09,Crystal City,,,BL,YL,,,38.85779,-77.050589,BL
+C10,Ronald Reagan Washington National Airport,,,BL,YL,,,38.852985,-77.043805,BL
+C12,Braddock Road,,,BL,YL,,,38.814009,-77.053763,BL
+C13,King St-Old Town,,,BL,YL,,,38.806474,-77.061115,BL
+D01,Federal Triangle,,,BL,OR,SV,,38.893757,-77.028218,BL
+D02,Smithsonian,,,BL,OR,SV,,38.888022,-77.028232,BL
+D03,L'Enfant Plaza,F03,,BL,OR,SV,,38.884775,-77.021964,BL
+D04,Federal Center SW,,,BL,OR,SV,,38.884958,-77.01586,BL
+D05,Capitol South,,,BL,OR,SV,,38.884968,-77.005137,BL
+D06,Eastern Market,,,BL,OR,SV,,38.884124,-76.995334,BL
+D07,Potomac Ave,,,BL,OR,SV,,38.880841,-76.985721,BL
+D08,Stadium-Armory,,,BL,OR,SV,,38.88594,-76.977485,BL
+G01,Benning Road,,,BL,SV,,,38.890488,-76.938291,BL
+G02,Capitol Heights,,,BL,SV,,,38.889757,-76.913382,BL
+G03,Addison Road-Seat Pleasant,,,BL,SV,,,38.886713,-76.893592,BL
+G04,Morgan Boulevard,,,BL,SV,,,38.8913,-76.8682,BL
+G05,Downtown Largo,,,BL,SV,,,38.9008,-76.8449,BL
+J02,Van Dorn Street,,,BL,,,,38.799193,-77.129407,BL
+J03,Franconia-Springfield,,,BL,,,,38.766129,-77.168797,BL
+E01,Mt Vernon Sq 7th St-Convention Center,,,GR,YL,,,38.905604,-77.022256,GR
+E02,Shaw-Howard U,,,GR,YL,,,38.912919,-77.022194,GR
+E03,U Street/African-Amer Civil War Memorial/Cardozo,,,GR,YL,,,38.916489,-77.028938,GR
+E04,Columbia Heights,,,GR,YL,,,38.928672,-77.032775,GR
+E05,Georgia Ave-Petworth,,,GR,YL,,,38.936077,-77.024728,GR
+E06,Fort Totten,B06,,GR,YL,,,38.951777,-77.002174,GR
+E07,West Hyattsville,,,GR,,,,38.954931,-76.969881,GR
+E08,Hyattsville Crossing,,,GR,,,,38.965276,-76.956182,GR
+E09,College Park-U of Md,,,GR,,,,38.978523,-76.928432,GR
+E10,Greenbelt,,,GR,,,,39.011036,-76.911362,GR
+F01,Gallery Pl-Chinatown,B01,,GR,YL,,,38.89834,-77.021851,GR
+F02,Archives-Navy Memorial-Penn Quarter,,,GR,YL,,,38.893893,-77.021902,GR
+F03,L'Enfant Plaza,D03,,GR,YL,,,38.884775,-77.021964,GR
+F04,Waterfront,,,GR,,,,38.876221,-77.017491,GR
+F05,Navy Yard-Ballpark,,,GR,,,,38.876588,-77.005086,GR
+F06,Anacostia,,,GR,,,,38.862072,-76.995648,GR
+F07,Congress Heights,,,GR,,,,38.845334,-76.98817,GR
+F08,Southern Avenue,,,GR,,,,38.840974,-76.97536,GR
+F09,Naylor Road,,,GR,,,,38.851187,-76.956565,GR
+F10,Suitland,,,GR,,,,38.843891,-76.932022,GR
+F11,Branch Ave,,,GR,,,,38.826995,-76.912134,GR
+C07,Pentagon,,,BL,YL,,,38.869349,-77.054013,YL
+C08,Pentagon City,,,BL,YL,,,38.863045,-77.059507,YL
+C09,Crystal City,,,BL,YL,,,38.85779,-77.050589,YL
+C10,Ronald Reagan Washington National Airport,,,BL,YL,,,38.852985,-77.043805,YL
+C12,Braddock Road,,,BL,YL,,,38.814009,-77.053763,YL
+C13,King St-Old Town,,,BL,YL,,,38.806474,-77.061115,YL
+C14,Eisenhower Avenue,,,YL,,,,38.800313,-77.071173,YL
+C15,Huntington,,,YL,,,,38.793841,-77.075301,YL
+E01,Mt Vernon Sq 7th St-Convention Center,,,GR,YL,,,38.905604,-77.022256,YL
+E02,Shaw-Howard U,,,GR,YL,,,38.912919,-77.022194,YL
+E03,U Street/African-Amer Civil War Memorial/Cardozo,,,GR,YL,,,38.916489,-77.028938,YL
+E04,Columbia Heights,,,GR,YL,,,38.928672,-77.032775,YL
+E05,Georgia Ave-Petworth,,,GR,YL,,,38.936077,-77.024728,YL
+E06,Fort Totten,B06,,GR,YL,,,38.951777,-77.002174,YL
+F01,Gallery Pl-Chinatown,B01,,GR,YL,,,38.89834,-77.021851,YL
+F02,Archives-Navy Memorial-Penn Quarter,,,GR,YL,,,38.893893,-77.021902,YL
+F03,L'Enfant Plaza,D03,,GR,YL,,,38.884775,-77.021964,YL
+C01,Metro Center,A01,,BL,OR,SV,,38.898303,-77.028099,SV
+C02,McPherson Square,,,BL,OR,SV,,38.901316,-77.033652,SV
+C03,Farragut West,,,BL,OR,SV,,38.901311,-77.03981,SV
+C04,Foggy Bottom-GWU,,,BL,OR,SV,,38.900599,-77.050273,SV
+C05,Rosslyn,,,BL,OR,SV,,38.896595,-77.07146,SV
+D01,Federal Triangle,,,BL,OR,SV,,38.893757,-77.028218,SV
+D02,Smithsonian,,,BL,OR,SV,,38.888022,-77.028232,SV
+D03,L'Enfant Plaza,F03,,BL,OR,SV,,38.884775,-77.021964,SV
+D04,Federal Center SW,,,BL,OR,SV,,38.884958,-77.01586,SV
+D05,Capitol South,,,BL,OR,SV,,38.884968,-77.005137,SV
+D06,Eastern Market,,,BL,OR,SV,,38.884124,-76.995334,SV
+D07,Potomac Ave,,,BL,OR,SV,,38.880841,-76.985721,SV
+D08,Stadium-Armory,,,BL,OR,SV,,38.88594,-76.977485,SV
+G01,Benning Road,,,BL,SV,,,38.890488,-76.938291,SV
+G02,Capitol Heights,,,BL,SV,,,38.889757,-76.913382,SV
+G03,Addison Road-Seat Pleasant,,,BL,SV,,,38.886713,-76.893592,SV
+G04,Morgan Boulevard,,,BL,SV,,,38.8913,-76.8682,SV
+G05,Downtown Largo,,,BL,SV,,,38.9008,-76.8449,SV
+K01,Court House,,,OR,SV,,,38.891499,-77.08391,SV
+K02,Clarendon,,,OR,SV,,,38.886373,-77.096963,SV
+K03,Virginia Square-GMU,,,OR,SV,,,38.88331,-77.104267,SV
+K04,Ballston-MU,,,OR,SV,,,38.882071,-77.111845,SV
+K05,East Falls Church,,,OR,SV,,,38.885841,-77.157177,SV
+N01,McLean,,,SV,,,,38.924478,-77.210167,SV
+N02,Tysons,,,SV,,,,38.920056,-77.223314,SV
+N03,Greensboro,,,SV,,,,38.919749,-77.235192,SV
+N04,Spring Hill,,,SV,,,,38.929273,-77.241988,SV
+N06,Wiehle-Reston East,,,SV,,,,38.947753,-77.340179,SV
+N07,Reston Town Center,,,SV,,,,38.952768,-77.360185,SV
+N08,Herndon,,,SV,,,,38.952821,-77.385178,SV
+N09,Innovation Center,,,SV,,,,38.960758,-77.415295,SV
+N10,Washington Dulles International Airport,,,SV,,,,38.955784,-77.448148,SV
+N11,Loudoun Gateway,,,SV,,,,38.99204,-77.460685,SV
+N12,Ashburn,,,SV,,,,39.005283,-77.491537,SV

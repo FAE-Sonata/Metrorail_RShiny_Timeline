@@ -5,60 +5,48 @@ Spyder Editor
 This is a temporary script file.
 """
 
-import http.client, urllib.request, urllib.parse, urllib.error, base64
-import json, pandas
+import http.client, urllib.request, urllib.parse, urllib.error
+import json, pandas as pd
 
-def obtainHeaders(apiKey):
+def obtain_headers(api_key):
     headers = {
         # Request headers
-        'api_key': apiKey,
+        'api_key': api_key,
     }
     return headers
 
-def obtainStations(headers, lineCode):
+def obtain_stations(headers, line_code):
     params = urllib.parse.urlencode({
         # Request parameters
-        'LineCode': lineCode,
+        'LineCode': line_code,
     })
     
     try:
         conn = http.client.HTTPSConnection('api.wmata.com')
-        conn.request("GET", "/Rail.svc/json/jStations?%s" % params, "{body}", headers)
+        conn.request("GET", f"/Rail.svc/json/jStations?{params}", "{body}", headers)
         response = conn.getresponse()
         data = response.read()
         loaded = json.loads(data.decode())
         conn.close()
-        resDict = loaded['Stations']
-        for st in resDict:
-            try:
-                del st['Address']
-            except KeyError as ke:
-                print("No such key: '%s'" & ke.message)
-#        resDict = loaded['stations']
-#        try:
-#            del resDict['address']
-#        except KeyError as ke:
-#            print("No such key: '%s'" & ke.message)
-        res = pandas.DataFrame.from_dict(resDict)
-#        pandas.Series([lineCode for k in range(len(resDict))])
-        res['queriedLine'] = lineCode
+        res_dict = loaded['Stations']
+        # remove Address key as its value is an unnecessary dict
+        for st in res_dict:
+            if not('Address' in st):
+                continue
+            del st['Address']
+        res = pd.DataFrame.from_dict(res_dict)
+        res['queriedLine'] = line_code
         return res
     except Exception as e:
-        print("[Errno {0}] {1}".format(e.errno, e.strerror))
+        print(f"[Errno {e.errno}] {e.strerror}")
         return None
 
-#wmataKey=input("Please enter your WMATA developer API key: ")
-keyFile=open("wmata_api_key.txt","r")
-wmataKey=keyFile.read()
-keyFile.close()
-headers=obtainHeaders(wmataKey)
-#tmp=obtainStations(headers, "RD")
-#tmpJson=json.loads(tmp.decode())
-lineCodes=["RD", "OR", "BL", "GR", "YL", "SV"]
-fullStationList=list(map(lambda s: obtainStations(headers, s), lineCodes))
-#dictFullStation=dict(pandas.concat(fullStationList))
-dfFullStation=pandas.concat(fullStationList)
-dfFullStation.to_csv('api_stations.csv', sep=',', index=False)
-#with open('api_stations.csv', 'w', newline='') as f:
-#    writer = csv.writer(f)
-#    writer.writerows(dfFullStation)
+with open("wmata_api_key.txt") as key_file:
+    wmata_key=key_file.read()
+    headers=obtain_headers(wmata_key)
+
+headers=obtain_headers(wmata_key)
+line_codes=["RD", "OR", "BL", "GR", "YL", "SV"]
+full_station_list=[obtain_stations(headers, s) for s in line_codes]
+df_full_station=pd.concat(full_station_list)
+df_full_station.to_csv('api_stations.csv', sep=',', index=False)
