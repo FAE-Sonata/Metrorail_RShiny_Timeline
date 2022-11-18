@@ -1,147 +1,153 @@
-"DistanceToPrev","LineCode","SeqNum","StationCode","StationName","Lat","Lon","Name","StationTogether1","isUpperLevel","Lines","Opened"
-NA,"BL",1,"G05","Largo Town Center",38.9008,-76.8449,"Largo Town Center",NA,-1,"BL,SV",2004-12-18
-7256,"BL",2,"G04","Morgan Boulevard",38.8913,-76.8682,"Morgan Boulevard",NA,-1,"BL,SV",2004-12-18
-8105,"BL",3,"G03","Addison Road-Seat Pleasant",38.886713,-76.893592,"Addison Road-Seat Pleasant",NA,-1,"BL,SV",1980-11-22
-5215,"BL",4,"G02","Capitol Heights",38.889757,-76.913382,"Capitol Heights",NA,-1,"BL,SV",1980-11-22
-7779,"BL",5,"G01","Benning Road",38.890488,-76.938291,"Benning Road",NA,-1,"BL,SV",1980-11-22
-13408,"BL",6,"D08","Stadium-Armory",38.88594,-76.977485,"Stadium-Armory",NA,-1,"BL,OR,SV",1977-07-01
-3750,"BL",7,"D07","Potomac Ave",38.880841,-76.985721,"Potomac Ave",NA,-1,"BL,OR,SV",1977-07-01
-3289,"BL",8,"D06","Eastern Market",38.884124,-76.995334,"Eastern Market",NA,-1,"BL,OR,SV",1977-07-01
-2703,"BL",9,"D05","Capitol South",38.884968,-77.005137,"Capitol South",NA,-1,"BL,OR,SV",1977-07-01
-3052,"BL",10,"D04","Federal Center SW",38.884958,-77.01586,"Federal Center SW",NA,-1,"BL,OR,SV",1977-07-01
-1757,"BL",11,"D03","L'Enfant Plaza",38.884775,-77.021964,"L'Enfant Plaza","F03",0,"BL,OR,SV",1977-07-01
-2643,"BL",12,"D02","Smithsonian",38.888022,-77.028232,"Smithsonian",NA,-1,"BL,OR,SV",1977-07-01
-2016,"BL",13,"D01","Federal Triangle",38.893757,-77.028218,"Federal Triangle",NA,-1,"BL,OR,SV",1977-07-01
-1561,"BL",14,"C01","Metro Center",38.898303,-77.028099,"Metro Center","A01",0,"BL,OR,SV",1977-07-01
-2359,"BL",15,"C02","McPherson Square",38.901316,-77.033652,"McPherson Square",NA,-1,"BL,OR,SV",1977-07-01
-2001,"BL",16,"C03","Farragut West",38.901311,-77.03981,"Farragut West",NA,-1,"BL,OR,SV",1977-07-01
-2783,"BL",17,"C04","Foggy Bottom-GWU",38.900599,-77.050273,"Foggy Bottom-GWU",NA,-1,"BL,OR,SV",1977-07-01
-6993,"BL",18,"C05","Rosslyn",38.896595,-77.07146,"Rosslyn",NA,-1,"BL,OR,SV",1977-07-01
-4936,"BL",19,"C06","Arlington Cemetery",38.884574,-77.063108,"Arlington Cemetery",NA,-1,"BL",1977-07-01
-7057,"BL",20,"C07","Pentagon",38.869349,-77.054013,"Pentagon",NA,-1,"BL,YL",1977-07-01
-3216,"BL",21,"C08","Pentagon City",38.863045,-77.059507,"Pentagon City",NA,-1,"BL,YL",1977-07-01
-4068,"BL",22,"C09","Crystal City",38.85779,-77.050589,"Crystal City",NA,-1,"BL,YL",1977-07-01
-2939,"BL",23,"C10","Ronald Reagan Washington National Airport",38.852985,-77.043805,"Ronald Reagan Washington National Airport",NA,-1,"BL,YL",1977-07-01
-16108,"BL",24,"C12","Braddock Road",38.814009,-77.053763,"Braddock Road",NA,-1,"BL,YL",1983-12-17
-3453,"BL",25,"C13","King St-Old Town",38.806474,-77.061115,"King St-Old Town",NA,-1,"BL,YL",1983-12-17
-20246,"BL",26,"J02","Van Dorn Street",38.799193,-77.129407,"Van Dorn Street",NA,-1,"BL",1991-06-15
-18695,"BL",27,"J03","Franconia-Springfield",38.766129,-77.168797,"Franconia-Springfield",NA,-1,"BL",1997-06-29
-NA,"GR",1,"F11","Branch Ave",38.826995,-76.912134,"Branch Ave",NA,-1,"GR",2001-01-13
-9144,"GR",2,"F10","Suitland",38.843891,-76.932022,"Suitland",NA,-1,"GR",2001-01-13
-7658,"GR",3,"F09","Naylor Road",38.851187,-76.956565,"Naylor Road",NA,-1,"GR",2001-01-13
-6612,"GR",4,"F08","Southern Avenue",38.840974,-76.97536,"Southern Avenue",NA,-1,"GR",2001-01-13
-5508,"GR",5,"F07","Congress Heights",38.845334,-76.98817,"Congress Heights",NA,-1,"GR",2001-01-13
-6851,"GR",6,"F06","Anacostia",38.862072,-76.995648,"Anacostia",NA,-1,"GR",1991-12-28
-6254,"GR",7,"F05","Navy Yard-Ballpark",38.876588,-77.005086,"Navy Yard-Ballpark",NA,-1,"GR",1991-12-28
-3326,"GR",8,"F04","Waterfront",38.876221,-77.017491,"Waterfront",NA,-1,"GR",1991-12-28
-4158,"GR",9,"F03","L'Enfant Plaza",38.884775,-77.021964,"L'Enfant Plaza","D03",1,"GR,YL",1983-04-30
-2950,"GR",10,"F02","Archives-Navy Memorial-Penn Quarter",38.893893,-77.021902,"Archives-Navy Memorial-Penn Quarter",NA,-1,"GR,YL",1983-04-30
-1879,"GR",11,"F01","Gallery Pl-Chinatown",38.89834,-77.021851,"Gallery Pl-Chinatown","B01",0,"GR,YL",1983-04-30
-2985,"GR",12,"E01","Mt Vernon Sq 7th St-Convention Center",38.905604,-77.022256,"Mt Vernon Sq 7th St-Convention Center",NA,-1,"GR,YL",1991-05-11
-2527,"GR",13,"E02","Shaw-Howard U",38.912919,-77.022194,"Shaw-Howard U",NA,-1,"GR,YL",1991-05-11
-2555,"GR",14,"E03","U Street/African-Amer Civil War Memorial/Cardozo",38.916489,-77.028938,"U Street/African-Amer Civil War Memorial/Cardozo",NA,-1,"GR,YL",1991-05-11
-4715,"GR",15,"E04","Columbia Heights",38.928672,-77.032775,"Columbia Heights",NA,-1,"GR,YL",1999-09-18
-4717,"GR",16,"E05","Georgia Ave-Petworth",38.936077,-77.024728,"Georgia Ave-Petworth",NA,-1,"GR,YL",1999-09-18
-8348,"GR",17,"E06","Fort Totten",38.951777,-77.002174,"Fort Totten","B06",0,"GR,YL",1993-12-11
-10406,"GR",18,"E07","West Hyattsville",38.954931,-76.969881,"West Hyattsville",NA,-1,"GR",1993-12-11
-6670,"GR",19,"E08","Prince George's Plaza",38.965276,-76.956182,"Prince George's Plaza",NA,-1,"GR",1993-12-11
-10368,"GR",20,"E09","College Park-U of Md",38.978523,-76.928432,"College Park-U of Md",NA,-1,"GR",1993-12-11
-12981,"GR",21,"E10","Greenbelt",39.011036,-76.911362,"Greenbelt",NA,-1,"GR",1993-12-11
-NA,"OR",1,"D13","New Carrollton",38.947674,-76.872144,"New Carrollton",NA,-1,"OR",1978-11-20
-7655,"OR",2,"D12","Landover",38.934411,-76.890988,"Landover",NA,-1,"OR",1978-11-20
-9665,"OR",3,"D11","Cheverly",38.91652,-76.915427,"Cheverly",NA,-1,"OR",1978-11-20
-6149,"OR",4,"D10","Deanwood",38.907734,-76.936177,"Deanwood",NA,-1,"OR",1978-11-20
-4723,"OR",5,"D09","Minnesota Ave",38.898284,-76.948042,"Minnesota Ave",NA,-1,"OR",1978-11-20
-11080,"OR",6,"D08","Stadium-Armory",38.88594,-76.977485,"Stadium-Armory",NA,-1,"BL,OR,SV",1977-07-01
-3750,"OR",7,"D07","Potomac Ave",38.880841,-76.985721,"Potomac Ave",NA,-1,"BL,OR,SV",1977-07-01
-3289,"OR",8,"D06","Eastern Market",38.884124,-76.995334,"Eastern Market",NA,-1,"BL,OR,SV",1977-07-01
-2703,"OR",9,"D05","Capitol South",38.884968,-77.005137,"Capitol South",NA,-1,"BL,OR,SV",1977-07-01
-3052,"OR",10,"D04","Federal Center SW",38.884958,-77.01586,"Federal Center SW",NA,-1,"BL,OR,SV",1977-07-01
-1757,"OR",11,"D03","L'Enfant Plaza",38.884775,-77.021964,"L'Enfant Plaza","F03",0,"BL,OR,SV",1977-07-01
-2643,"OR",12,"D02","Smithsonian",38.888022,-77.028232,"Smithsonian",NA,-1,"BL,OR,SV",1977-07-01
-2016,"OR",13,"D01","Federal Triangle",38.893757,-77.028218,"Federal Triangle",NA,-1,"BL,OR,SV",1977-07-01
-1561,"OR",14,"C01","Metro Center",38.898303,-77.028099,"Metro Center","A01",0,"BL,OR,SV",1977-07-01
-2359,"OR",15,"C02","McPherson Square",38.901316,-77.033652,"McPherson Square",NA,-1,"BL,OR,SV",1977-07-01
-2001,"OR",16,"C03","Farragut West",38.901311,-77.03981,"Farragut West",NA,-1,"BL,OR,SV",1977-07-01
-2783,"OR",17,"C04","Foggy Bottom-GWU",38.900599,-77.050273,"Foggy Bottom-GWU",NA,-1,"BL,OR,SV",1977-07-01
-6993,"OR",18,"C05","Rosslyn",38.896595,-77.07146,"Rosslyn",NA,-1,"BL,OR,SV",1977-07-01
-5807,"OR",19,"K01","Court House",38.891499,-77.08391,"Court House",NA,-1,"OR,SV",1979-12-11
-2687,"OR",20,"K02","Clarendon",38.886373,-77.096963,"Clarendon",NA,-1,"OR,SV",1979-12-11
-2473,"OR",21,"K03","Virginia Square-GMU",38.88331,-77.104267,"Virginia Square-GMU",NA,-1,"OR,SV",1979-12-11
-2980,"OR",22,"K04","Ballston-MU",38.882071,-77.111845,"Ballston-MU",NA,-1,"OR,SV",1979-12-11
-13156,"OR",23,"K05","East Falls Church",38.885841,-77.157177,"East Falls Church",NA,-1,"OR,SV",1986-06-07
-10918,"OR",24,"K06","West Falls Church-VT/UVA",38.90067,-77.189394,"West Falls Church-VT/UVA",NA,-1,"OR",1986-06-07
-12638,"OR",25,"K07","Dunn Loring-Merrifield",38.883015,-77.228939,"Dunn Loring-Merrifield",NA,-1,"OR",1986-06-07
-13165,"OR",26,"K08","Vienna/Fairfax-GMU",38.877693,-77.271562,"Vienna/Fairfax-GMU",NA,-1,"OR",1986-06-07
-NA,"RD",1,"B11","Glenmont",39.061713,-77.05341,"Glenmont",NA,-1,"RD",1998-07-25
-9334,"RD",2,"B10","Wheaton",39.038558,-77.051098,"Wheaton",NA,-1,"RD",1990-09-22
-8484,"RD",3,"B09","Forest Glen",39.015413,-77.042953,"Forest Glen",NA,-1,"RD",1990-09-22
-8859,"RD",4,"B08","Silver Spring",38.993841,-77.031321,"Silver Spring",NA,-1,"RD",1978-02-06
-7483,"RD",5,"B07","Takoma",38.975532,-77.017834,"Takoma",NA,-1,"RD",1978-02-06
-10026,"RD",6,"B06","Fort Totten",38.951777,-77.002174,"Fort Totten","E06",1,"RD",1978-02-06
-7146,"RD",7,"B05","Brookland-CUA",38.933234,-76.994544,"Brookland-CUA",NA,-1,"RD",1978-02-06
-4461,"RD",8,"B04","Rhode Island Ave-Brentwood",38.920741,-76.995984,"Rhode Island Ave-Brentwood",NA,-1,"RD",1976-03-29
-5771,"RD",9,"B35","NoMa-Gallaudet U",38.907407,-77.002961,"NoMa-Gallaudet U",NA,-1,"RD",2004-11-20
-3553,"RD",10,"B03","Union Station",38.897723,-77.006745,"Union Station",NA,-1,"RD",1976-03-29
-3446,"RD",11,"B02","Judiciary Square",38.896084,-77.016643,"Judiciary Square",NA,-1,"RD",1976-03-29
-1875,"RD",12,"B01","Gallery Pl-Chinatown",38.89834,-77.021851,"Gallery Pl-Chinatown","F01",1,"RD",1976-12-15
-1505,"RD",13,"A01","Metro Center",38.898303,-77.028099,"Metro Center","C01",1,"RD",1976-03-29
-4178,"RD",14,"A02","Farragut North",38.903192,-77.039766,"Farragut North",NA,-1,"RD",1976-03-29
-2711,"RD",15,"A03","Dupont Circle",38.909499,-77.04362,"Dupont Circle",NA,-1,"RD",1977-01-17
-6304,"RD",16,"A04","Woodley Park-Zoo/Adams Morgan",38.924999,-77.052648,"Woodley Park-Zoo/Adams Morgan",NA,-1,"RD",1981-12-05
-3740,"RD",17,"A05","Cleveland Park",38.934703,-77.058226,"Cleveland Park",NA,-1,"RD",1981-12-05
-3320,"RD",18,"A06","Van Ness-UDC",38.94362,-77.063511,"Van Ness-UDC",NA,-1,"RD",1981-12-05
-5841,"RD",19,"A07","Tenleytown-AU",38.947808,-77.079615,"Tenleytown-AU",NA,-1,"RD",1984-08-25
-4135,"RD",20,"A08","Friendship Heights",38.960744,-77.085969,"Friendship Heights",NA,-1,"RD",1984-08-25
-9095,"RD",21,"A09","Bethesda",38.984282,-77.094431,"Bethesda",NA,-1,"RD",1984-08-25
-5530,"RD",22,"A10","Medical Center",38.999947,-77.097253,"Medical Center",NA,-1,"RD",1984-08-25
-11821,"RD",23,"A11","Grosvenor-Strathmore",39.029158,-77.10415,"Grosvenor-Strathmore",NA,-1,"RD",1984-08-25
-7309,"RD",24,"A12","White Flint",39.048043,-77.113131,"White Flint",NA,-1,"RD",1984-12-15
-5895,"RD",25,"A13","Twinbrook",39.062359,-77.121113,"Twinbrook",NA,-1,"RD",1984-12-15
-10586,"RD",26,"A14","Rockville",39.084215,-77.146424,"Rockville",NA,-1,"RD",1984-12-15
-14151,"RD",27,"A15","Shady Grove",39.119819,-77.164921,"Shady Grove",NA,-1,"RD",1984-12-15
-NA,"SV",1,"G05","Largo Town Center",38.9008,-76.8449,"Largo Town Center",NA,-1,"BL,SV",2014-07-26
-7256,"SV",2,"G04","Morgan Boulevard",38.8913,-76.8682,"Morgan Boulevard",NA,-1,"BL,SV",2014-07-26
-8105,"SV",3,"G03","Addison Road-Seat Pleasant",38.886713,-76.893592,"Addison Road-Seat Pleasant",NA,-1,"BL,SV",2014-07-26
-5215,"SV",4,"G02","Capitol Heights",38.889757,-76.913382,"Capitol Heights",NA,-1,"BL,SV",2014-07-26
-7779,"SV",5,"G01","Benning Road",38.890488,-76.938291,"Benning Road",NA,-1,"BL,SV",2014-07-26
-13408,"SV",6,"D08","Stadium-Armory",38.88594,-76.977485,"Stadium-Armory",NA,-1,"BL,OR,SV",2014-07-26
-3750,"SV",7,"D07","Potomac Ave",38.880841,-76.985721,"Potomac Ave",NA,-1,"BL,OR,SV",2014-07-26
-3289,"SV",8,"D06","Eastern Market",38.884124,-76.995334,"Eastern Market",NA,-1,"BL,OR,SV",2014-07-26
-2703,"SV",9,"D05","Capitol South",38.884968,-77.005137,"Capitol South",NA,-1,"BL,OR,SV",2014-07-26
-3052,"SV",10,"D04","Federal Center SW",38.884958,-77.01586,"Federal Center SW",NA,-1,"BL,OR,SV",2014-07-26
-1757,"SV",11,"D03","L'Enfant Plaza",38.884775,-77.021964,"L'Enfant Plaza","F03",0,"BL,OR,SV",2014-07-26
-2643,"SV",12,"D02","Smithsonian",38.888022,-77.028232,"Smithsonian",NA,-1,"BL,OR,SV",2014-07-26
-2016,"SV",13,"D01","Federal Triangle",38.893757,-77.028218,"Federal Triangle",NA,-1,"BL,OR,SV",2014-07-26
-1561,"SV",14,"C01","Metro Center",38.898303,-77.028099,"Metro Center","A01",0,"BL,OR,SV",2014-07-26
-2359,"SV",15,"C02","McPherson Square",38.901316,-77.033652,"McPherson Square",NA,-1,"BL,OR,SV",2014-07-26
-2001,"SV",16,"C03","Farragut West",38.901311,-77.03981,"Farragut West",NA,-1,"BL,OR,SV",2014-07-26
-2783,"SV",17,"C04","Foggy Bottom-GWU",38.900599,-77.050273,"Foggy Bottom-GWU",NA,-1,"BL,OR,SV",2014-07-26
-6993,"SV",18,"C05","Rosslyn",38.896595,-77.07146,"Rosslyn",NA,-1,"BL,OR,SV",2014-07-26
-5807,"SV",19,"K01","Court House",38.891499,-77.08391,"Court House",NA,-1,"OR,SV",2014-07-26
-2687,"SV",20,"K02","Clarendon",38.886373,-77.096963,"Clarendon",NA,-1,"OR,SV",2014-07-26
-2473,"SV",21,"K03","Virginia Square-GMU",38.88331,-77.104267,"Virginia Square-GMU",NA,-1,"OR,SV",2014-07-26
-2980,"SV",22,"K04","Ballston-MU",38.882071,-77.111845,"Ballston-MU",NA,-1,"OR,SV",2014-07-26
-13156,"SV",23,"K05","East Falls Church",38.885841,-77.157177,"East Falls Church",NA,-1,"OR,SV",2014-07-26
-24558,"SV",24,"N01","McLean",38.924478,-77.210167,"McLean",NA,-1,"SV",2014-07-26
-3454,"SV",25,"N02","Tysons Corner",38.920056,-77.223314,"Tysons Corner",NA,-1,"SV",2014-07-26
-3945,"SV",26,"N03","Greensboro",38.919749,-77.235192,"Greensboro",NA,-1,"SV",2014-07-26
-4022,"SV",27,"N04","Spring Hill",38.929273,-77.241988,"Spring Hill",NA,-1,"SV",2014-07-26
-30858,"SV",28,"N06","Wiehle-Reston East",38.947753,-77.340179,"Wiehle-Reston East",NA,-1,"SV",2014-07-26
-NA,"YL",1,"C15","Huntington",38.793841,-77.075301,"Huntington",NA,-1,"YL",1983-12-17
-2770,"YL",2,"C14","Eisenhower Avenue",38.800313,-77.071173,"Eisenhower Avenue",NA,-1,"YL",1983-12-17
-3734,"YL",3,"C13","King St-Old Town",38.806474,-77.061115,"King St-Old Town",NA,-1,"BL,YL",1983-12-17
-3453,"YL",4,"C12","Braddock Road",38.814009,-77.053763,"Braddock Road",NA,-1,"BL,YL",1983-12-17
-16108,"YL",5,"C10","Ronald Reagan Washington National Airport",38.852985,-77.043805,"Ronald Reagan Washington National Airport",NA,-1,"BL,YL",1977-07-01
-2939,"YL",6,"C09","Crystal City",38.85779,-77.050589,"Crystal City",NA,-1,"BL,YL",1977-07-01
-4068,"YL",7,"C08","Pentagon City",38.863045,-77.059507,"Pentagon City",NA,-1,"BL,YL",1977-07-01
-3216,"YL",8,"C07","Pentagon",38.869349,-77.054013,"Pentagon",NA,-1,"BL,YL",1977-07-01
-12356,"YL",9,"F03","L'Enfant Plaza",38.884775,-77.021964,"L'Enfant Plaza","D03",1,"GR,YL",1983-04-30
-2950,"YL",10,"F02","Archives-Navy Memorial-Penn Quarter",38.893893,-77.021902,"Archives-Navy Memorial-Penn Quarter",NA,-1,"GR,YL",1983-04-30
-1879,"YL",11,"F01","Gallery Pl-Chinatown",38.89834,-77.021851,"Gallery Pl-Chinatown","B01",0,"GR,YL",1983-04-30
-2985,"YL",12,"E01","Mt Vernon Sq 7th St-Convention Center",38.905604,-77.022256,"Mt Vernon Sq 7th St-Convention Center",NA,-1,"GR,YL",1991-05-11
-2527,"YL",13,"E02","Shaw-Howard U",38.912919,-77.022194,"Shaw-Howard U",NA,-1,"GR,YL",1991-05-11
-2555,"YL",14,"E03","U Street/African-Amer Civil War Memorial/Cardozo",38.916489,-77.028938,"U Street/African-Amer Civil War Memorial/Cardozo",NA,-1,"GR,YL",1991-05-11
-4715,"YL",15,"E04","Columbia Heights",38.928672,-77.032775,"Columbia Heights",NA,-1,"GR,YL",1999-09-18
-4717,"YL",16,"E05","Georgia Ave-Petworth",38.936077,-77.024728,"Georgia Ave-Petworth",NA,-1,"GR,YL",1999-09-18
-8348,"YL",17,"E06","Fort Totten",38.951777,-77.002174,"Fort Totten","B06",0,"GR,YL",1993-12-11
+LineCode,StationCode,StationName,SeqNum,DistanceToPrev,Name,StationTogether1,LineCode1,LineCode2,LineCode3,Lat,Lon,queriedLine,isUpperLevel,lines,opening
+BL,G05,Downtown Largo,1,,Downtown Largo,,BL,SV,,38.9008,-76.8449,BL,-1,"Blue,Silver",2004-12-18
+BL,G04,Morgan Boulevard,2,7256,Morgan Boulevard,,BL,SV,,38.8913,-76.8682,BL,-1,"Blue,Silver",2004-12-18
+BL,G03,Addison Road-Seat Pleasant,3,7960,Addison Road-Seat Pleasant,,BL,SV,,38.886713,-76.893592,BL,-1,"Blue,Silver",1980-11-22
+BL,G02,Capitol Heights,4,5215,Capitol Heights,,BL,SV,,38.889757,-76.913382,BL,-1,"Blue,Silver",1980-11-22
+BL,G01,Benning Road,5,7779,Benning Road,,BL,SV,,38.890488,-76.938291,BL,-1,"Blue,Silver",1980-11-22
+BL,D08,Stadium-Armory,6,12162,Stadium-Armory,,BL,OR,SV,38.88594,-76.977485,OR,-1,"Blue,Orange,Silver",1977-07-01
+BL,D07,Potomac Ave,7,3750,Potomac Ave,,BL,OR,SV,38.880841,-76.985721,OR,-1,"Blue,Orange,Silver",1977-07-01
+BL,D06,Eastern Market,8,3289,Eastern Market,,BL,OR,SV,38.884124,-76.995334,OR,-1,"Blue,Orange,Silver",1977-07-01
+BL,D05,Capitol South,9,2703,Capitol South,,BL,OR,SV,38.884968,-77.005137,OR,-1,"Blue,Orange,Silver",1977-07-01
+BL,D04,Federal Center SW,10,3052,Federal Center SW,,BL,OR,SV,38.884958,-77.01586,OR,-1,"Blue,Orange,Silver",1977-07-01
+BL,D03,L'Enfant Plaza,11,1757,L'Enfant Plaza,F03,BL,OR,SV,38.884775,-77.021964,OR,0,"Blue,Orange,Silver",1977-07-01
+BL,D02,Smithsonian,12,2643,Smithsonian,,BL,OR,SV,38.888022,-77.028232,OR,-1,"Blue,Orange,Silver",1977-07-01
+BL,D01,Federal Triangle,13,2016,Federal Triangle,,BL,OR,SV,38.893757,-77.028218,OR,-1,"Blue,Orange,Silver",1977-07-01
+BL,C01,Metro Center,14,1561,Metro Center,A01,BL,OR,SV,38.898303,-77.028099,OR,0,"Blue,Orange,Silver",1977-07-01
+BL,C02,McPherson Square,15,2359,McPherson Square,,BL,OR,SV,38.901316,-77.033652,OR,-1,"Blue,Orange,Silver",1977-07-01
+BL,C03,Farragut West,16,2001,Farragut West,,BL,OR,SV,38.901311,-77.03981,OR,-1,"Blue,Orange,Silver",1977-07-01
+BL,C04,Foggy Bottom-GWU,17,2783,Foggy Bottom-GWU,,BL,OR,SV,38.900599,-77.050273,OR,-1,"Blue,Orange,Silver",1977-07-01
+BL,C05,Rosslyn,18,6993,Rosslyn,,BL,OR,SV,38.896595,-77.07146,OR,-1,"Blue,Orange,Silver",1977-07-01
+BL,C06,Arlington Cemetery,19,4936,Arlington Cemetery,,BL,,,38.884574,-77.063108,BL,-1,Blue,1977-07-01
+BL,C07,Pentagon,20,7036,Pentagon,,BL,YL,,38.869349,-77.054013,BL,-1,"Blue,Yellow",1977-07-01
+BL,C08,Pentagon City,21,3216,Pentagon City,,BL,YL,,38.863045,-77.059507,BL,-1,"Blue,Yellow",1977-07-01
+BL,C09,Crystal City,22,4068,Crystal City,,BL,YL,,38.85779,-77.050589,BL,-1,"Blue,Yellow",1977-07-01
+BL,C10,Ronald Reagan Washington National Airport,23,2939,Ronald Reagan Washington National Airport,,BL,YL,,38.852985,-77.043805,BL,-1,"Blue,Yellow",1977-07-01
+BL,C12,Braddock Road,24,8605,Braddock Road,,BL,YL,,38.814009,-77.053763,BL,-1,"Blue,Yellow",1983-12-17
+BL,C13,King St-Old Town,25,3453,King St-Old Town,,BL,YL,,38.806474,-77.061115,BL,-1,"Blue,Yellow",1983-12-17
+BL,J02,Van Dorn Street,26,20158,Van Dorn Street,,BL,,,38.799193,-77.129407,BL,-1,Blue,1991-06-15
+BL,J03,Franconia-Springfield,27,18695,Franconia-Springfield,,BL,,,38.766129,-77.168797,BL,-1,Blue,1997-06-29
+GR,F11,Branch Ave,1,,Branch Ave,,GR,,,38.826995,-76.912134,GR,-1,Green,2001-01-13
+GR,F10,Suitland,2,9144,Suitland,,GR,,,38.843891,-76.932022,GR,-1,Green,2001-01-13
+GR,F09,Naylor Road,3,7658,Naylor Road,,GR,,,38.851187,-76.956565,GR,-1,Green,2001-01-13
+GR,F08,Southern Avenue,4,6612,Southern Avenue,,GR,,,38.840974,-76.97536,GR,-1,Green,2001-01-13
+GR,F07,Congress Heights,5,5508,Congress Heights,,GR,,,38.845334,-76.98817,GR,-1,Green,2001-01-13
+GR,F06,Anacostia,6,6851,Anacostia,,GR,,,38.862072,-76.995648,GR,-1,Green,1991-12-28
+GR,F05,Navy Yard-Ballpark,7,6254,Navy Yard-Ballpark,,GR,,,38.876588,-77.005086,GR,-1,Green,1991-12-28
+GR,F04,Waterfront,8,3326,Waterfront,,GR,,,38.876221,-77.017491,GR,-1,Green,1991-12-28
+GR,F03,L'Enfant Plaza,9,4158,L'Enfant Plaza,D03,GR,YL,,38.884775,-77.021964,GR,1,"Green,Yellow",1983-04-30
+GR,F02,Archives-Navy Memorial-Penn Quarter,10,2950,Archives-Navy Memorial-Penn Quarter,,GR,YL,,38.893893,-77.021902,GR,-1,"Green,Yellow",1983-04-30
+GR,F01,Gallery Pl-Chinatown,11,1879,Gallery Pl-Chinatown,B01,GR,YL,,38.89834,-77.021851,GR,0,"Green,Yellow",1983-04-30
+GR,E01,Mt Vernon Sq 7th St-Convention Center,12,2985,Mt Vernon Sq 7th St-Convention Center,,GR,YL,,38.905604,-77.022256,GR,-1,"Green,Yellow",1991-05-11
+GR,E02,Shaw-Howard U,13,2527,Shaw-Howard U,,GR,YL,,38.912919,-77.022194,GR,-1,"Green,Yellow",1991-05-11
+GR,E03,U Street/African-Amer Civil War Memorial/Cardozo,14,2555,U Street/African-Amer Civil War Memorial/Cardozo,,GR,YL,,38.916489,-77.028938,GR,-1,"Green,Yellow",1991-05-11
+GR,E04,Columbia Heights,15,4715,Columbia Heights,,GR,YL,,38.928672,-77.032775,GR,-1,"Green,Yellow",1999-09-18
+GR,E05,Georgia Ave-Petworth,16,4717,Georgia Ave-Petworth,,GR,YL,,38.936077,-77.024728,GR,-1,"Green,Yellow",1999-09-18
+GR,E06,Fort Totten,17,8348,Fort Totten,B06,GR,YL,,38.951777,-77.002174,GR,0,"Green,Yellow",1993-12-11
+GR,E07,West Hyattsville,18,10406,West Hyattsville,,GR,,,38.954931,-76.969881,GR,-1,"Green,Yellow",1993-12-11
+GR,E08,Hyattsville Crossing,19,6670,Hyattsville Crossing,,GR,,,38.965276,-76.956182,GR,-1,"Green,Yellow",1993-12-11
+GR,E09,College Park-U of Md,20,10368,College Park-U of Md,,GR,,,38.978523,-76.928432,GR,-1,"Green,Yellow",1993-12-11
+GR,E10,Greenbelt,21,12981,Greenbelt,,GR,,,39.011036,-76.911362,GR,-1,"Green,Yellow",1993-12-11
+OR,D13,New Carrollton,1,,New Carrollton,,OR,,,38.947674,-76.872144,OR,-1,Orange,1978-11-20
+OR,D12,Landover,2,7655,Landover,,OR,,,38.934411,-76.890988,OR,-1,Orange,1978-11-20
+OR,D11,Cheverly,3,9665,Cheverly,,OR,,,38.91652,-76.915427,OR,-1,Orange,1978-11-20
+OR,D10,Deanwood,4,6149,Deanwood,,OR,,,38.907734,-76.936177,OR,-1,Orange,1978-11-20
+OR,D09,Minnesota Ave,5,4723,Minnesota Ave,,OR,,,38.898284,-76.948042,OR,-1,Orange,1978-11-20
+OR,D08,Stadium-Armory,6,11080,Stadium-Armory,,BL,OR,SV,38.88594,-76.977485,OR,-1,"Blue,Orange,Silver",1977-07-01
+OR,D07,Potomac Ave,7,3750,Potomac Ave,,BL,OR,SV,38.880841,-76.985721,OR,-1,"Blue,Orange,Silver",1977-07-01
+OR,D06,Eastern Market,8,3289,Eastern Market,,BL,OR,SV,38.884124,-76.995334,OR,-1,"Blue,Orange,Silver",1977-07-01
+OR,D05,Capitol South,9,2703,Capitol South,,BL,OR,SV,38.884968,-77.005137,OR,-1,"Blue,Orange,Silver",1977-07-01
+OR,D04,Federal Center SW,10,3052,Federal Center SW,,BL,OR,SV,38.884958,-77.01586,OR,-1,"Blue,Orange,Silver",1977-07-01
+OR,D03,L'Enfant Plaza,11,1757,L'Enfant Plaza,F03,BL,OR,SV,38.884775,-77.021964,OR,0,"Blue,Orange,Silver",1977-07-01
+OR,D02,Smithsonian,12,2643,Smithsonian,,BL,OR,SV,38.888022,-77.028232,OR,-1,"Blue,Orange,Silver",1977-07-01
+OR,D01,Federal Triangle,13,2016,Federal Triangle,,BL,OR,SV,38.893757,-77.028218,OR,-1,"Blue,Orange,Silver",1977-07-01
+OR,C01,Metro Center,14,1561,Metro Center,A01,BL,OR,SV,38.898303,-77.028099,OR,0,"Blue,Orange,Silver",1977-07-01
+OR,C02,McPherson Square,15,2359,McPherson Square,,BL,OR,SV,38.901316,-77.033652,OR,-1,"Blue,Orange,Silver",1977-07-01
+OR,C03,Farragut West,16,2001,Farragut West,,BL,OR,SV,38.901311,-77.03981,OR,-1,"Blue,Orange,Silver",1977-07-01
+OR,C04,Foggy Bottom-GWU,17,2783,Foggy Bottom-GWU,,BL,OR,SV,38.900599,-77.050273,OR,-1,"Blue,Orange,Silver",1977-07-01
+OR,C05,Rosslyn,18,6993,Rosslyn,,BL,OR,SV,38.896595,-77.07146,OR,-1,"Blue,Orange,Silver",1977-07-01
+OR,K01,Court House,19,5807,Court House,,OR,SV,,38.891499,-77.08391,OR,-1,"Orange,Silver",1979-12-11
+OR,K02,Clarendon,20,2687,Clarendon,,OR,SV,,38.886373,-77.096963,OR,-1,"Orange,Silver",1979-12-11
+OR,K03,Virginia Square-GMU,21,2473,Virginia Square-GMU,,OR,SV,,38.88331,-77.104267,OR,-1,"Orange,Silver",1979-12-11
+OR,K04,Ballston-MU,22,2980,Ballston-MU,,OR,SV,,38.882071,-77.111845,OR,-1,"Orange,Silver",1979-12-11
+OR,K05,East Falls Church,23,13156,East Falls Church,,OR,SV,,38.885841,-77.157177,OR,-1,"Orange,Silver",1986-06-07
+OR,K06,West Falls Church,24,10918,West Falls Church,,OR,,,38.90067,-77.189394,OR,-1,Orange,1986-06-07
+OR,K07,Dunn Loring-Merrifield,25,12638,Dunn Loring-Merrifield,,OR,,,38.883015,-77.228939,OR,-1,Orange,1986-06-07
+OR,K08,Vienna/Fairfax-GMU,26,13165,Vienna/Fairfax-GMU,,OR,,,38.877693,-77.271562,OR,-1,Orange,1986-06-07
+RD,B11,Glenmont,1,,Glenmont,,RD,,,39.061713,-77.05341,RD,-1,Red,1998-07-25
+RD,B10,Wheaton,2,9334,Wheaton,,RD,,,39.038558,-77.051098,RD,-1,Red,1990-09-22
+RD,B09,Forest Glen,3,8484,Forest Glen,,RD,,,39.015413,-77.042953,RD,-1,Red,1990-09-22
+RD,B08,Silver Spring,4,8871,Silver Spring,,RD,,,38.993841,-77.031321,RD,-1,Red,1978-02-06
+RD,B07,Takoma,5,7484,Takoma,,RD,,,38.975532,-77.017834,RD,-1,Red,1978-02-06
+RD,B06,Fort Totten,6,10026,Fort Totten,E06,RD,,,38.951777,-77.002174,RD,1,Red,1978-02-06
+RD,B05,Brookland-CUA,7,7378,Brookland-CUA,,RD,,,38.933234,-76.994544,RD,-1,Red,1978-02-06
+RD,B04,Rhode Island Ave-Brentwood,8,4553,Rhode Island Ave-Brentwood,,RD,,,38.920741,-76.995984,RD,-1,Red,1976-03-29
+RD,B35,NoMa-Gallaudet U,9,5771,NoMa-Gallaudet U,,RD,,,38.907407,-77.002961,RD,-1,Red,2004-11-20
+RD,B03,Union Station,10,3548,Union Station,,RD,,,38.897723,-77.006745,RD,-1,Red,1976-03-29
+RD,B02,Judiciary Square,11,3446,Judiciary Square,,RD,,,38.896084,-77.016643,RD,-1,Red,1976-03-29
+RD,B01,Gallery Pl-Chinatown,12,1967,Gallery Pl-Chinatown,F01,RD,,,38.89834,-77.021851,RD,1,Red,1976-12-15
+RD,A01,Metro Center,13,1505,Metro Center,C01,RD,,,38.898303,-77.028099,RD,1,Red,1976-03-29
+RD,A02,Farragut North,14,4178,Farragut North,,RD,,,38.903192,-77.039766,RD,-1,Red,1976-03-29
+RD,A03,Dupont Circle,15,2487,Dupont Circle,,RD,,,38.909499,-77.04362,RD,-1,Red,1977-01-17
+RD,A04,Woodley Park-Zoo/Adams Morgan,16,6304,Woodley Park-Zoo/Adams Morgan,,RD,,,38.924999,-77.052648,RD,-1,Red,1981-12-05
+RD,A05,Cleveland Park,17,3740,Cleveland Park,,RD,,,38.934703,-77.058226,RD,-1,Red,1981-12-05
+RD,A06,Van Ness-UDC,18,3320,Van Ness-UDC,,RD,,,38.94362,-77.063511,RD,-1,Red,1981-12-05
+RD,A07,Tenleytown-AU,19,5841,Tenleytown-AU,,RD,,,38.947808,-77.079615,RD,-1,Red,1984-08-25
+RD,A08,Friendship Heights,20,4135,Friendship Heights,,RD,,,38.960744,-77.085969,RD,-1,Red,1984-08-25
+RD,A09,Bethesda,21,9095,Bethesda,,RD,,,38.984282,-77.094431,RD,-1,Red,1984-08-25
+RD,A10,Medical Center,22,5530,Medical Center,,RD,,,38.999947,-77.097253,RD,-1,Red,1984-08-25
+RD,A11,Grosvenor-Strathmore,23,11821,Grosvenor-Strathmore,,RD,,,39.029158,-77.10415,RD,-1,Red,1984-08-25
+RD,A12,North Bethesda,24,7309,North Bethesda,,RD,,,39.048043,-77.113131,RD,-1,Red,1984-12-15
+RD,A13,Twinbrook,25,5895,Twinbrook,,RD,,,39.062359,-77.121113,RD,-1,Red,1984-12-15
+RD,A14,Rockville,26,10586,Rockville,,RD,,,39.084215,-77.146424,RD,-1,Red,1984-12-15
+RD,A15,Shady Grove,27,14151,Shady Grove,,RD,,,39.119819,-77.164921,RD,-1,Red,1984-12-15
+SV,G05,Downtown Largo,1,,Downtown Largo,,BL,SV,,38.9008,-76.8449,BL,-1,"Blue,Silver",2014-07-26
+SV,G04,Morgan Boulevard,2,7256,Morgan Boulevard,,BL,SV,,38.8913,-76.8682,BL,-1,"Blue,Silver",2014-07-26
+SV,G03,Addison Road-Seat Pleasant,3,7960,Addison Road-Seat Pleasant,,BL,SV,,38.886713,-76.893592,BL,-1,"Blue,Silver",2014-07-26
+SV,G02,Capitol Heights,4,5215,Capitol Heights,,BL,SV,,38.889757,-76.913382,BL,-1,"Blue,Silver",2014-07-26
+SV,G01,Benning Road,5,7779,Benning Road,,BL,SV,,38.890488,-76.938291,BL,-1,"Blue,Silver",2014-07-26
+SV,D08,Stadium-Armory,6,12162,Stadium-Armory,,BL,OR,SV,38.88594,-76.977485,OR,-1,"Blue,Orange,Silver",2014-07-26
+SV,D07,Potomac Ave,7,3750,Potomac Ave,,BL,OR,SV,38.880841,-76.985721,OR,-1,"Blue,Orange,Silver",2014-07-26
+SV,D06,Eastern Market,8,3289,Eastern Market,,BL,OR,SV,38.884124,-76.995334,OR,-1,"Blue,Orange,Silver",2014-07-26
+SV,D05,Capitol South,9,2703,Capitol South,,BL,OR,SV,38.884968,-77.005137,OR,-1,"Blue,Orange,Silver",2014-07-26
+SV,D04,Federal Center SW,10,3052,Federal Center SW,,BL,OR,SV,38.884958,-77.01586,OR,-1,"Blue,Orange,Silver",2014-07-26
+SV,D03,L'Enfant Plaza,11,1757,L'Enfant Plaza,F03,BL,OR,SV,38.884775,-77.021964,OR,0,"Blue,Orange,Silver",2014-07-26
+SV,D02,Smithsonian,12,2643,Smithsonian,,BL,OR,SV,38.888022,-77.028232,OR,-1,"Blue,Orange,Silver",2014-07-26
+SV,D01,Federal Triangle,13,2016,Federal Triangle,,BL,OR,SV,38.893757,-77.028218,OR,-1,"Blue,Orange,Silver",2014-07-26
+SV,C01,Metro Center,14,1561,Metro Center,A01,BL,OR,SV,38.898303,-77.028099,OR,0,"Blue,Orange,Silver",2014-07-26
+SV,C02,McPherson Square,15,2359,McPherson Square,,BL,OR,SV,38.901316,-77.033652,OR,-1,"Blue,Orange,Silver",2014-07-26
+SV,C03,Farragut West,16,2001,Farragut West,,BL,OR,SV,38.901311,-77.03981,OR,-1,"Blue,Orange,Silver",2014-07-26
+SV,C04,Foggy Bottom-GWU,17,2783,Foggy Bottom-GWU,,BL,OR,SV,38.900599,-77.050273,OR,-1,"Blue,Orange,Silver",2014-07-26
+SV,C05,Rosslyn,18,6993,Rosslyn,,BL,OR,SV,38.896595,-77.07146,OR,-1,"Blue,Orange,Silver",2014-07-26
+SV,K01,Court House,19,4936,Court House,,OR,SV,,38.891499,-77.08391,OR,-1,"Orange,Silver",2014-07-26
+SV,K02,Clarendon,20,2687,Clarendon,,OR,SV,,38.886373,-77.096963,OR,-1,"Orange,Silver",2014-07-26
+SV,K03,Virginia Square-GMU,21,2473,Virginia Square-GMU,,OR,SV,,38.88331,-77.104267,OR,-1,"Orange,Silver",2014-07-26
+SV,K04,Ballston-MU,22,2980,Ballston-MU,,OR,SV,,38.882071,-77.111845,OR,-1,"Orange,Silver",2014-07-26
+SV,K05,East Falls Church,23,13156,East Falls Church,,OR,SV,,38.885841,-77.157177,OR,-1,"Orange,Silver",2014-07-26
+SV,N01,McLean,24,24745,McLean,,SV,,,38.924478,-77.210167,SV,-1,Silver,2014-07-26
+SV,N02,Tysons,25,3440,Tysons,,SV,,,38.920056,-77.223314,SV,-1,Silver,2014-07-26
+SV,N03,Greensboro,26,3902,Greensboro,,SV,,,38.919749,-77.235192,SV,-1,Silver,2014-07-26
+SV,N04,Spring Hill,27,3634,Spring Hill,,SV,,,38.929273,-77.241988,SV,-1,Silver,2014-07-26
+SV,N06,Wiehle-Reston East,28,30867,Wiehle-Reston East,,SV,,,38.947753,-77.340179,SV,-1,Silver,2014-07-26
+SV,N07,Reston Town Center,29,5961,Reston Town Center,,SV,,,38.952768,-77.360185,SV,-1,Silver,2022-11-15
+SV,N08,Herndon,30,7130,Herndon,,SV,,,38.952821,-77.385178,SV,-1,Silver,2022-11-15
+SV,N09,Innovation Center,31,9095,Innovation Center,,SV,,,38.960758,-77.415295,SV,-1,Silver,2022-11-15
+SV,N10,Washington Dulles International Airport,32,10999,Washington Dulles International Airport,,SV,,,38.955784,-77.448148,SV,-1,Silver,2022-11-15
+SV,N11,Loudoun Gateway,33,15145,Loudoun Gateway,,SV,,,38.99204,-77.460685,SV,-1,Silver,2022-11-15
+SV,N12,Ashburn,34,10338,Ashburn,,SV,,,39.005283,-77.491537,SV,-1,Silver,2022-11-15
+YL,C15,Huntington,1,,Huntington,,YL,,,38.793841,-77.075301,YL,-1,Yellow,1983-12-17
+YL,C14,Eisenhower Avenue,2,2770,Eisenhower Avenue,,YL,,,38.800313,-77.071173,YL,-1,Yellow,1983-12-17
+YL,C13,King St-Old Town,3,3734,King St-Old Town,,BL,YL,,38.806474,-77.061115,BL,-1,"Blue,Yellow",1983-12-17
+YL,C12,Braddock Road,4,3453,Braddock Road,,BL,YL,,38.814009,-77.053763,BL,-1,"Blue,Yellow",1983-12-17
+YL,C10,Ronald Reagan Washington National Airport,5,8605,Ronald Reagan Washington National Airport,,BL,YL,,38.852985,-77.043805,BL,-1,"Blue,Yellow",1977-07-01
+YL,C09,Crystal City,6,2939,Crystal City,,BL,YL,,38.85779,-77.050589,BL,-1,"Blue,Yellow",1977-07-01
+YL,C08,Pentagon City,7,4068,Pentagon City,,BL,YL,,38.863045,-77.059507,BL,-1,"Blue,Yellow",1977-07-01
+YL,C07,Pentagon,8,3216,Pentagon,,BL,YL,,38.869349,-77.054013,BL,-1,"Blue,Yellow",1977-07-01
+YL,F03,L'Enfant Plaza,9,12524,L'Enfant Plaza,D03,GR,YL,,38.884775,-77.021964,GR,1,"Green,Yellow",1983-04-30
+YL,F02,Archives-Navy Memorial-Penn Quarter,10,2950,Archives-Navy Memorial-Penn Quarter,,GR,YL,,38.893893,-77.021902,GR,-1,"Green,Yellow",1983-04-30
+YL,F01,Gallery Pl-Chinatown,11,1879,Gallery Pl-Chinatown,B01,GR,YL,,38.89834,-77.021851,GR,0,"Green,Yellow",1983-04-30
+YL,E01,Mt Vernon Sq 7th St-Convention Center,12,2985,Mt Vernon Sq 7th St-Convention Center,,GR,YL,,38.905604,-77.022256,GR,-1,"Green,Yellow",1991-05-11
+YL,E02,Shaw-Howard U,13,2527,Shaw-Howard U,,GR,YL,,38.912919,-77.022194,GR,-1,"Green,Yellow",1991-05-11
+YL,E03,U Street/African-Amer Civil War Memorial/Cardozo,14,2555,U Street/African-Amer Civil War Memorial/Cardozo,,GR,YL,,38.916489,-77.028938,GR,-1,"Green,Yellow",1991-05-11
+YL,E04,Columbia Heights,15,4715,Columbia Heights,,GR,YL,,38.928672,-77.032775,GR,-1,"Green,Yellow",1999-09-18
+YL,E05,Georgia Ave-Petworth,16,4717,Georgia Ave-Petworth,,GR,YL,,38.936077,-77.024728,GR,-1,"Green,Yellow",1999-09-18
+YL,E06,Fort Totten,17,8348,Fort Totten,B06,GR,YL,,38.951777,-77.002174,GR,0,"Green,Yellow",1993-12-11
